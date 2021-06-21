@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
 
 * {
     padding: 0px;
@@ -25,13 +26,29 @@ section nav ul {
 
 section > nav > ul > li {
     display: inline;
-    padding: 20px;
 }
 
 section > nav > ul > li > a {
-    font-size: 30px;
+    padding: 20px;
+    font-size: 20px;
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-weight: lighter;
+}
+
+main > section > div.meio  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > section > div.meio > h1.spd-code {
+    color: white;
+    font-family: Century Gothic;
+    font-size: 3em;
+    border: 3px solid white;
+    padding: 10px;
 }
