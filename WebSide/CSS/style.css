@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(/Imagens/neon-sunset-4k-eh.jpg);
+    background-image: url(/Imagens/wallpaperjpg.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -15,13 +15,9 @@ body {
 }
 
 section nav{
-
-}
-
-section nav ul {
-    position: absolute;
-    top: 5%;
-    left: 75%;
+        position: absolute;
+        top: 5%;
+        left: 84%;
 }
 
 section > nav > ul > li {
